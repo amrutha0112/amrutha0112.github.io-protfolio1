@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-1</title>
+    <style>
+        .navbar {
+            height: 70px;
+            top: 0px;
+            background-color: rgb(1, 56, 47);
+
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: fixed;
+            width: 100%;
+            font-weight: 900;
+            border: 3px solid gold;
+        }
+
+        #ima {
+            height: 50px;
+            width: 50px;
+            border: 1px solid goldenrod;
+            border-radius: 50%;
+            background-image: url("htmlcss.png");
+            background-size: cover;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .nav-left {
+
+            height: 70px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right {
+            height: 70px;
+            width: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            padding-right: 30px;
+        }
+
+        .nav-right a:hover {
+            color: goldenrod;
+            transform: translateY(5px);
+        }
+
+        #small_bar {
+            margin-top: 70px;
+            height: 20px;
+            background-color: white;
+        }
+
+        .about_me {
+            display: flex;
+            height: 500px;
+            width: 100%;
+            background-color: rgb(1, 56, 47);
+        }
+
+        #hi {
+            height: 500px;
+            width: 500px;
+            margin-right: 100px;
+            color: white;
+
+        }
+
+        #pic {
+            margin-top: 13px;
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            border: 1px solid white;
+            background-image: url("AMRUTHA PHOTO P (1).jpg");
+            background-size: cover;
+        }
+
+        #name {
+            margin-top: 80px;
+            margin-left: 20px;
+        }
+
+        #aboutme {
+
+            margin-left: 20px;
+            color: white;
+        }
+
+        button {
+            margin-left: 20px;
+        }
+
+
+        #skills_head,
+        #details_n,
+        #pro_head {
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgba(61, 59, 59, 0.652);
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            height: 500px;
+            background-color: rgb(1, 56, 47);
+        }
+
+        .skills-1,
+        .skills-2,
+        .skills-3 {
+            height: 120px;
+            display: flex;
+            align-items: center;
+        }
+
+        #python,
+        #html,
+        #css {
+            margin-left: 100px;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+        }
+
+        #python_n,
+        #ht,
+        #css_n {
+            margin-right: 50px;
+            height: 100px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            color: white;
+            align-items: center;
+        }
+
+        #python_n:hover,
+        #ht:hover,
+        #css_n:hover {
+            background-color: white;
+        }
+
+        .profiles {
+            height: 500px;
+            background-color: black;
+        }
+
+        .gpa {
+            color: white;
+        }
+
+        .profiles {
+            background-color: rgb(1, 56, 47);
+        }
+
+        #pro-1-info,
+        #pro-2-info {
+            margin-left: 30px;
+            height: 130px;
+            width: 500px;
+            background-color: white;
+            margin-right: 50px;
+        }
+
+        #link:hover {
+            color: white;
+        }
+
+        #contact {
+            height: 30px;
+            background-color: white;
+
+        }
+
+        .tags {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .contact {
+            color: white;
+            height: 120px;
+            background-color: rgb(1, 56, 47);
+            align-items: center;
+            display: flex;
+            padding-left: 300px;
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div id="ima"></div>
+            <h1>Portfolio</h1>
+        </div>
+        <div class="nav-right">
+            <a href="#about">Home</a>
+            <a href="#skill">My skills </a>
+            <a href="#details">Education details</a>
+            <a href="#project">projects </a>
+            <a href="#contactme">contact me </a>
+        </div>
+    </div>
+    <div id="small_bar"></div>
+    <div class="about_me" id="about">
+        <div id="hi">
+            <div id="name">
+                <h2>I'm </h2>
+                <h1 style="color:rgb(209, 173, 13)"> Amruthavalli Rayannagari</h1>
+                <p>This is my official portfolio to show all my details.</p>
+            </div>
+            <button>About me</button>
+            <div id="aboutme">
+                <p>Currently Iam pursuing my btech second year in Chaitanya Bharathi Institute of Technology,Hyderabad.
+                    I am intrested in things related to Artificial intelligence & Machine learning. Apart from tech, I
+                    love to sing songs(classical).
+
+                </p>
+            </div>
+
+        </div>
+        <div id="pic"></div>
+    </div>
+    <div class="skills" id="skill">
+        <div id="skills_head">
+            <h1>My Technical skills</h1>
+        </div>
+        <div class="skills-1">
+            <div id="python"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_python_icon_130221.png"
+                    height="40"></div>
+            <div id="python_n">
+                <h1>Python</h1>
+            </div>
+        </div>
+        <div class="skills-2">
+            <div id="html"><img src="https://th.bing.com/th/id/OIP.bI8KDjd8-nDvzTX_Uok7FwHaHa?pid=ImgDet&rs=1"
+                    height="40"></div>
+            <div id="ht">
+                <h1>Html</h1>
+            </div>
+        </div>
+        <div class="skills-3">
+            <div id="css"><img src="https://logospng.org/download/css-3/logo-css-3-2048.png" height="40"></div>
+            <div id="css_n">
+                <h1>CSS</h1>
+            </div>
+        </div>
+    </div>
+    <div class="profiles" id="details">
+        <div id="details_n">
+            <h1>Education details</h1>
+        </div>
+        <div class="gpa">
+            <pre>
+        <h1>
+            secured CGPA in 1st year  :9.7
+        </h1>
+        </pre>
+
+            <div class="contact" id="contactme">
+                <div>follow me on</div>
+
+                <div class="tags">
+                    <a href="https://www.linkedin.com/in/rayannagari-amruthavalli-63a1b625a/" <img
+                        src="https://th.bing.com/th/id/OIP.-ezoc37pkXQ9nMkwk33RUAAAAA?pid=ImgDet&rs=1" height="40"></a>
+                    <a href="https://github.com/amrutha0112"><img
+                            src="https://th.bing.com/th/id/OIP.PisgvQ7qnar--dmr6mCDUQHaHa?pid=ImgDet&rs=1"
+                            height="40"></a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+</body>
+
+</html>
